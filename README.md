@@ -10,7 +10,7 @@ sets all the necessary headers etc so that it looks like a regular form submit.
 ``` js
 var submit = require('submit-form-element').submit
 
-submit.($('form'), $('button'), function (err, response) {
+submit($('form'), $('button'), function (err, response) {
   //calls back error, or xhr response
 })
 
