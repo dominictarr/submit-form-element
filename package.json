@@ -1,0 +1,21 @@
+{
+  "name": "submit-form-element",
+  "description": "submit a form element via xhr but as if user clicked a submit button",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/submit-form-element",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/submit-form-element.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hyperscript": "^2.0.2",
+    "stack": "^0.1.0",
+    "tape": "^4.9.2"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
