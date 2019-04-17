@@ -1,7 +1,7 @@
 {
   "name": "submit-form-element",
   "description": "submit a form element via xhr but as if user clicked a submit button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/submit-form-element",
   "repository": {
     "type": "git",
